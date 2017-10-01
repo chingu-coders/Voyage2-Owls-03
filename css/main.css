@@ -110,7 +110,11 @@ header nav a:hover {
     /*BANNER*/
 
     #banner {
-        height: 704px;
+        height: 703px;
+    }
+
+    #banner {
+        position: relative;
     }
 
     #banner h2 {
@@ -121,7 +125,7 @@ header nav a:hover {
         max-width: 600px;
     }
 
-    #banner figure img {
+    #hero-image {
         position: absolute;
         bottom: 0;
         left: 50%;
