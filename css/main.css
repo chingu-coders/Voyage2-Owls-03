@@ -3,22 +3,22 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.clearfix {
-    overflow: auto;
-}
-
 .container {
-    padding: 20px 20px 0px 20px;
     margin: 0 auto;
     max-width: 1150px;
+    padding: 20px 20px 0px 20px;
+}
+
+.clearfix {
+    overflow: auto;
 }
 
 /*HEADER STYLES*/
 
 header {
     background: #380089;
-    width: 100%;
     color: white;
+    width: 100%;
 }
 
 header img {
@@ -27,12 +27,11 @@ header img {
 }
 
 header h1 {
-    float: left;
-    margin: 0 0 0 5px;
     font-size: 25px;
+    font-weight: 700;
+    float: left;
     line-height: 34px;
-    font-weight: 600;
-    font-weight: bolder;
+    margin: 0 0 0 5px;
 }
 
 /*NAV BAR STYLES*/
@@ -42,11 +41,11 @@ header nav {
 }
 
 header nav a {
+    color: white;
     font-weight: bold;
     font-size: 17px;
-    margin: 0;
     line-height: 34px;
-    color: white;
+    margin: 0;
     text-decoration: none;
 }
 
@@ -68,22 +67,19 @@ header nav a:hover {
 }
 
 #hero h2 {
-    font-weight: 100;
     font-size: 38px;
-    max-width: 700px;
+    font-weight: 100;
     margin-top: 15px;
+    max-width: 700px;
 }
 
-#hero #add-to-slack-button {
+#add-to-slack-button {
     width: 220px;
 }
 
-#hero #hero-image {
-    margin-top: 45px;
-    margin-left: -20px;
-    margin-bottom: -4px;
+#hero figure {
+    margin: 45px 0px -4px -20px;
 }
-
 
 
 
@@ -91,9 +87,10 @@ header nav a:hover {
 
 @media screen and (min-width: 880px) {
 
+
     /*HEADER*/
 
-    .container {
+    header .container {
         margin-top: 20px;
     }
 
@@ -111,9 +108,9 @@ header nav a:hover {
 
     #hero h2 {
         font-size: 70px;
-        margin-top: 45px;
-        margin-bottom: 25px;
         line-height: 90px;
+        margin-bottom: 25px;
+        margin-top: 45px;
         max-width: 600px;
     }
 
