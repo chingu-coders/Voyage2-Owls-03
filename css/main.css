@@ -1,1 +1,134 @@
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1150px;
+    padding: 20px 20px 0px 20px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+/*HEADER STYLES*/
+
+header {
+    background: #380089;
+    color: white;
+    width: 100%;
+}
+
+header img {
+    float: left;
+    width: 34px;
+}
+
+header h1 {
+    font-size: 25px;
+    font-weight: 700;
+    float: left;
+    line-height: 34px;
+    margin: 0 0 0 5px;
+}
+
+/*NAV BAR STYLES*/
+
+header nav {
+    float: right;
+}
+
+header nav a {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 34px;
+    margin: 0;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #380089;
+    -webkit-transition: .5s;
+}
+
+/*BANNER STYLES*/
+
+#banner {
+    background: #380089;
+    width: 100%;
+    color: white;
+}
+
+#banner .container {
+    margin-bottom: 0;
+}
+
+#banner h2 {
+    font-size: 38px;
+    font-weight: 100;
+    margin-top: 15px;
+    max-width: 700px;
+}
+
+#add-to-slack-button {
+    width: 220px;
+}
+
+#banner figure {
+    margin: 45px 0px -5px -20px;
+}
+
+#banner figure img {
+    width: 105%;
+    max-width: 466px;
+}
+
+
+/*Desktop Styles*/
+
+@media screen and (min-width: 880px) {
+
+    /*HEADER*/
+
+    header .container {
+        margin-top: 20px;
+    }
+
+    header img {
+        width: 55px;
+    }
+
+    header h1 {
+        font-size: 38px;
+        line-height: 55px;
+    }
+
+
+    /*BANNER*/
+
+    #banner {
+        height: 703px;
+    }
+
+    #banner {
+        position: relative;
+    }
+
+    #banner h2 {
+        font-size: 70px;
+        line-height: 90px;
+        margin-top: 65px;
+        margin-bottom: 25px;
+        max-width: 600px;
+    }
+
+    #hero-image {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+    }
+
+}
