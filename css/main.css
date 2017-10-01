@@ -1,1 +1,160 @@
 
+/*FONTS*/
+
+@font-face {
+    font-family: Bariol;
+    font-weight: 300;
+    src: url(../fonts/bariol_light-webfont.woff2) format('woff');
+}
+
+@font-face {
+  font-family: Bariol;
+  font-weight: 400;
+  src: url(../fonts/bariol_regular-webfont.woff2);
+}
+
+@font-face {
+  font-family: Bariol;
+  font-weight: 600;
+  src: url(../fonts/bariol_bold-webfont.woff2);
+}
+
+/*GENERAL*/
+
+body {
+    font-family: 'Bariol';
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 20px 20px 0px 20px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+/*HEADER STYLES*/
+
+header {
+    background: #380089;
+    color: white;
+    width: 100%;
+}
+
+header img {
+    float: left;
+    width: 34px;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 600;
+    float: left;
+    line-height: 34px;
+    margin: 0 0 0 5px;
+}
+
+/*NAV BAR STYLES*/
+
+header nav {
+    float: right;
+}
+
+header nav a {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 34px;
+    margin: 0;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #380089;
+    -webkit-transition: .5s;
+}
+
+/*BANNER STYLES*/
+
+#banner {
+    background: #380089;
+    width: 100%;
+    color: white;
+    height: 687px;
+}
+
+#banner .container {
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+#banner h2 {
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 46px;
+    margin: 15px 0 30px 0;
+    max-width: 700px;
+}
+
+#slack-button a {
+    margin-top: 0;
+}
+
+#add-to-slack-button {
+    width: 215px;
+}
+
+#banner figure {
+    margin: 45px 0px -2px -20px;
+}
+
+#banner figure img {
+    width: 105%;
+    max-width: 466px;
+}
+
+
+/*Desktop Styles*/
+
+@media screen and (min-width: 880px) {
+
+    /*HEADER*/
+
+    header .container {
+        margin-top: 20px;
+
+    }
+
+    header img {
+        width: 55px;
+    }
+
+    header h1 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+
+
+    /*BANNER*/
+
+    #banner {
+        height: 685px;
+        position: relative;
+    }
+
+    #banner h2 {
+        font-size: 80px;
+        line-height: 88px;
+        margin: 65px 0 31px 0;
+        max-width: 600px;
+    }
+
+    #hero-image {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+    }
+
+}
