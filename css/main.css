@@ -81,6 +81,11 @@ header nav a:hover {
     margin: 45px 0px -4px -20px;
 }
 
+#hero figure img {
+    width: 105%;
+    max-width: 466px;
+}
+
 
 
 /*Desktop Styles*/
@@ -110,7 +115,7 @@ header nav a:hover {
         font-size: 70px;
         line-height: 90px;
         margin-bottom: 25px;
-        margin-top: 45px;
+        margin-top: 65px;
         max-width: 600px;
     }
 
@@ -118,6 +123,10 @@ header nav a:hover {
         float: right;
         margin: 0;
     }
+
+}
+
+@media screen and (max-width: 300px) {
 
 }
 
