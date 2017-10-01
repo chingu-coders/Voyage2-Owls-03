@@ -1,6 +1,27 @@
 
+/*Fonts*/
+
+@font-face {
+    font-family: Bariol;
+    font-weight: 300;
+    src: url(../fonts/bariol_light-webfont.woff2) format('woff');
+}
+
+@font-face {
+  font-family: Bariol;
+  font-weight: 400;
+  src: url(../fonts/bariol_regular-webfont.woff2);
+}
+
+@font-face {
+  font-family: Bariol;
+  font-weight: 600;
+  src: url(../fonts/bariol_bold-webfont.woff2);
+}
+
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Bariol';
 }
 
 .container {
@@ -27,8 +48,8 @@ header img {
 }
 
 header h1 {
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 600;
     float: left;
     line-height: 34px;
     margin: 0 0 0 5px;
@@ -67,14 +88,19 @@ header nav a:hover {
 }
 
 #banner h2 {
-    font-size: 38px;
+    font-size: 42px;
     font-weight: 100;
-    margin-top: 15px;
+    line-height: 46px;
+    margin: 15px 0 30px 0;
     max-width: 700px;
 }
 
+#slack-button a {
+    margin-top: 0;
+}
+
 #add-to-slack-button {
-    width: 220px;
+    width: 215px;
 }
 
 #banner figure {
@@ -102,7 +128,7 @@ header nav a:hover {
     }
 
     header h1 {
-        font-size: 38px;
+        font-size: 42px;
         line-height: 55px;
     }
 
@@ -118,10 +144,9 @@ header nav a:hover {
     }
 
     #banner h2 {
-        font-size: 70px;
-        line-height: 90px;
-        margin-top: 65px;
-        margin-bottom: 25px;
+        font-size: 80px;
+        line-height: 88px;
+        margin: 65px 0 31px 0;
         max-width: 600px;
     }
 
