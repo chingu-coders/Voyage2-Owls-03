@@ -38,11 +38,18 @@ header nav {
     float: right;
 }
 
-header nav p {
+header nav a {
     font-weight: bold;
     font-size: 17px;
     margin: 0;
     line-height: 34px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #380089;
+    -webkit-transition: .5s;
 }
 
 /*HERO STYLES*/
