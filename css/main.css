@@ -1,5 +1,5 @@
 
-/*Fonts*/
+/*FONTS*/
 
 @font-face {
     font-family: Bariol;
@@ -19,6 +19,7 @@
   src: url(../fonts/bariol_bold-webfont.woff2);
 }
 
+/*GENERAL*/
 
 body {
     font-family: 'Bariol';
@@ -81,10 +82,12 @@ header nav a:hover {
     background: #380089;
     width: 100%;
     color: white;
+    height: 687px;
 }
 
 #banner .container {
     margin-bottom: 0;
+    overflow: hidden;
 }
 
 #banner h2 {
@@ -104,7 +107,7 @@ header nav a:hover {
 }
 
 #banner figure {
-    margin: 45px 0px -5px -20px;
+    margin: 45px 0px -2px -20px;
 }
 
 #banner figure img {
