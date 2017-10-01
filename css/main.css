@@ -1,4 +1,8 @@
 
+#testing {
+    height: 1000px;
+}
+
 /*FONTS*/
 
 @font-face {
@@ -41,6 +45,8 @@ header {
     background: #380089;
     color: white;
     width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 header img {
@@ -98,7 +104,8 @@ header nav #signin a:hover {
     color: white;
 }
 
-#banner .container {
+.banner-content {
+    margin-top: 65px;
     margin-bottom: 0;
     overflow: hidden;
 }
@@ -178,8 +185,12 @@ header nav #signin a:hover {
     /*BANNER*/
 
     #banner {
-        height: 685px;
+        height: 775px;
         position: relative;
+    }
+
+    .banner-content {
+        margin-top: 93px;
     }
 
     #banner h2 {
