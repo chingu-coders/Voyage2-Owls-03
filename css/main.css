@@ -54,19 +54,19 @@ header nav a:hover {
     -webkit-transition: .5s;
 }
 
-/*HERO STYLES*/
+/*BANNER STYLES*/
 
-#hero {
+#banner {
     background: #380089;
     width: 100%;
     color: white;
 }
 
-#hero .container {
+#banner .container {
     margin-bottom: 0;
 }
 
-#hero h2 {
+#banner h2 {
     font-size: 38px;
     font-weight: 100;
     margin-top: 15px;
@@ -77,21 +77,19 @@ header nav a:hover {
     width: 220px;
 }
 
-#hero figure {
-    margin: 45px 0px -4px -20px;
+#banner figure {
+    margin: 45px 0px -5px -20px;
 }
 
-#hero figure img {
+#banner figure img {
     width: 105%;
     max-width: 466px;
 }
 
 
-
 /*Desktop Styles*/
 
 @media screen and (min-width: 880px) {
-
 
     /*HEADER*/
 
@@ -109,26 +107,24 @@ header nav a:hover {
     }
 
 
-    /*HERO*/
+    /*BANNER*/
 
-    #hero h2 {
+    #banner {
+        height: 704px;
+    }
+
+    #banner h2 {
         font-size: 70px;
         line-height: 90px;
-        margin-bottom: 25px;
         margin-top: 65px;
+        margin-bottom: 25px;
         max-width: 600px;
     }
 
-    #hero figure {
-        float: right;
-        margin: 0;
+    #banner figure img {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
     }
 
 }
-
-@media screen and (max-width: 300px) {
-
-}
-
-
-
