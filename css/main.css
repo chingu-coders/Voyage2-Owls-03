@@ -32,7 +32,7 @@ body {
 .container {
     margin: 0 auto;
     max-width: 1140px;
-    padding: 20px 20px 0px 20px;
+    padding: 10px 20px 0px 20px;
 }
 
 .clearfix {
@@ -47,7 +47,7 @@ header {
     width: 100%;
     position: fixed;
     z-index: 1;
-    padding-bottom: 10px;
+    padding: 10px 0;
 }
 
 header img {
@@ -97,6 +97,20 @@ header nav #signin a:hover {
     -webkit-transition: .5s;
 }
 
+
+/*Navbar Scroll Classes*/
+
+.navbar-scroll {
+    background: white;
+    color: #380089;
+    padding-top: 0;
+}
+
+.navbar-scroll-links {
+    color: #380089;
+    opacity: 1;
+}
+
 /*BANNER STYLES*/
 
 #banner {
@@ -143,7 +157,7 @@ header nav #signin a:hover {
 
     /*HEADER*/
 
-    header .container {
+    header {
         margin-top: 20px;
 
     }
@@ -181,6 +195,26 @@ header nav #signin a:hover {
         margin-left: 9px;
         letter-spacing: 0;
     }
+
+    header nav #signin:hover {
+        background: rgba(255, 255, 255, .25);
+    }
+
+    header nav #signin a:hover {
+        color: white;
+        -webkit-transition: 0;
+    }
+
+    /*Navbar Scroll Classes*/
+
+    .navbar-scroll {
+        margin-top: 0;
+    }
+
+    .signin-scroll {
+
+    }
+
 
 
     /*BANNER*/
