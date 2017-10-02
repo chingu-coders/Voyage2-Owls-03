@@ -84,7 +84,7 @@ header nav a {
     color: white;
 }
 
-header nav #signin {
+.signin {
     font-weight: bold;
     font-size: 18.5px;
     line-height: 34px;
@@ -92,7 +92,7 @@ header nav #signin {
     display: inline;
 }
 
-header nav #signin a:hover {
+.signin a:hover {
     color: #380089;
     -webkit-transition: .5s;
 }
@@ -186,7 +186,7 @@ header nav #signin a:hover {
         letter-spacing: .5px;
     }
 
-    header nav #signin {
+    .signin {
         opacity: 1;
         font-size: 14px;
         padding: 10px 20px 11px 20px;
@@ -196,13 +196,12 @@ header nav #signin a:hover {
         letter-spacing: 0;
     }
 
-    header nav #signin:hover {
+    .signin:hover {
         background: rgba(255, 255, 255, .25);
     }
 
-    header nav #signin a:hover {
+    .signin a:hover {
         color: white;
-        -webkit-transition: 0;
     }
 
     /*Navbar Scroll Classes*/
@@ -211,9 +210,23 @@ header nav #signin a:hover {
         margin-top: 0;
     }
 
-    .signin-scroll {
-
+    .navbar-scroll-links:hover {
+        color: #7F50FF;
     }
+
+    .signin-scroll {
+        background: #E1D9ED;
+    }
+
+    .signin-scroll:hover {
+        background: #CDBFE1;
+    }
+
+    .signin-scroll a:hover {
+        color: #380089;
+    }
+
+
 
 
 
